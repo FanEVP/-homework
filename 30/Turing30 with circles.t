@@ -41,6 +41,7 @@ procedure circlesProc
     GUI.Show(backButton)
     GUI.Hide(option_growing)
     GUI.Hide(option_guessing)
+    GUI.Show(quitButton)
     randint(colour0, 0, 255)
     randint(xcoor, 0, maxx)
     randint(ycoor, 0, maxy)
